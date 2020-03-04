@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <style media="screen">
+      .container-fluid{
+        position:relative;
+        text-align: center;
+        color: white;
+        padding: 16px;
+        }
+        /* Centered text */
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .header {
+        padding: 10px 16px;
+        background: #555;
+        color: #f1f1f1;
+      }
+
+      .content {
+        padding: 16px;
+      }
+
+      .sticky {
+        position: fixed;
+        top: 0;
+        width: 100%;
+      }
+
+      .sticky + .content {
+        padding-top: 102px;
+      }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+  </head>
+  <body>
+    <div class="row">
+
+      <div class="col-sm-3"><img src="" alt="me"></div>
+      <ul class="nav">
+        <li class="nav-item">
+      <div class="col-sm-1"><a class="nav-link" href="https://safarpass.com/">HOME</a></div>
+      </li>
+      <li class="nav-item">
+      <div class="col-sm-1"><a class="nav-link" href="https://safarpass.com/">HOMEABOUT-US</a></div>
+      </li>
+      <li class="nav-item">
+      <div class="col-sm-1"><a class="nav-link" href="https://safarpass.com/">RESOURCES</a></div>
+      </li>
+      <li class="nav-item">
+      <div class="col-sm-1"><a class="nav-link" href="https://safarpass.com/">BULLETIN & EVENTS</a></div>
+      </li>
+      <li class="nav-item">
+      <div class="col-sm-1"><a class="nav-link" href="https://safarpass.com/">CONTACT US</a></div>
+      </li>
+      <li class="nav-item">
+      <div class="col-sm-1"><a class="nav-link" href="https://safarpass.com/">DEPARTMENTS</a></div>
+      </li>
+      </ul>
+    </div>
+    <div class="header" id="myHeader">
+    <!-- <div class="container p-3 my-3 bg-dark text-white"> -->
+      <h1  class="text-center">Mine house shall be called a House of Prayer</h1>
+      <p class="text-center">Let the bride say I do </p>
+    <!-- </div> -->
+    </div>
+    <div class="content">
+    <div class="jumbotron jumbotron-fluid">
+    <div class="container">
+      <h1 class="text-center">WELCOME TO AMAKOM</h1>
+      <br>
+      <br>
+      <h2 class="text-center">Seventh-Day Adventist Church</h2>
+      <br>
+      <br>
+      <h3 class="text-center">This weeks bulletin</h3>
+    </div>
+    </div>
+    <div class="container-fluid">
+      <img src="images/frontview.jpg" alt="choir" style="width:100%;">
+      <div class="centered">
+      <h1>OUR MISSION</h1>
+      <h3>We are God's beacon of hope, actively preparing</h3>
+      <h3>Amakom for His Second Coming</h3>
+      </div>
+    </div>
+    <br>
+    <br>
+    <!-- <div class="row">
+    <div class="col-sm-3"> -->
+    <div class="card-deck">
+    <div class="container">
+  <div class="card" style="width:400px">
+    <img class="card-img-top" src=images/logo.jfif alt="Card image" style="width:100%">
+    <div class="card-body">
+      <h4 class="card-title">John Doe</h4>
+      <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+      <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+    </div>
+  </div>
+</div>
+
+
+<!-- <div class="col-sm-3"> -->
+<div class="container">
+<div class="card" style="width:400px">
+<img class="card-img-top" src=images/logo.jfif alt="Card image" style="width:100%">
+<div class="card-body">
+  <h4 class="card-title">John Doe</h4>
+  <p class="card-text">Some example text some example text. John Doe is an architect and engineer</p>
+  <a href="#" class="btn btn-primary stretched-link">See Profile</a>
+</div>
+</div>
+</div>
+</div>
+
+
+
+    <div class="table-responsive">
+  <h2>UPCOMING EVENTS</h2>
+  <p>The following are the church events coming up</p>
+  <table class="table table-dark table-hover">
+    <thead>
+      <tr>
+        <th>Firstname</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+    <thead>
+      <tr>
+        <th>Second Name</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>John</td>
+        <td>Doe</td>
+        <td>john@example.com</td>
+      </tr>
+      <tr>
+        <td>Mary</td>
+        <td>Moe</td>
+        <td>mary@example.com</td>
+      </tr>
+      <tr>
+        <td>July</td>
+        <td>Dooley</td>
+        <td>july@example.com</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
+</div>
+
+<script>
+window.onscroll = function() {myFunction()};
+
+var header = document.getElementById("myHeader");
+var sticky = header.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset > sticky) {
+    header.classList.add("sticky");
+  } else {
+    header.classList.remove("sticky");
+  }
+}
+</script>
+
+</body>
+</html
